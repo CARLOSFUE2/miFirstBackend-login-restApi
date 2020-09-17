@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	
+</head>
+<body >
+<div class="container">
+	<div class="col-sm-6 mx-auto">
+		<div class="card mt-5">
+			<div class="card-body bg-dark text-white">
+				<h1 class="text-center">
+					<a href="/promos">
+					<span class="fa fa-sign-in"></span> Watch Promos
+					</a>
+				</h1>
+
+				<form action="/formulary" method="post">
+					<div class="form-froup">
+						<label for="firstUrl">Url</label>
+						<input type="firstUrl" name="firstUrl" class="form-control">
+					</div>
+					<div class="form-froup">
+						<label for="firstMessage">FirstMessage</label>
+						<input type="firstMessage" name="firstMessage" class="form-control">
+					</div>
+					<div class="form-froup">
+						<label for="secondUrl">SecondUrl</label>
+						<input type="secondUrl" name="secondUrl" class="form-control">
+					</div>
+					<div class="form-froup">
+						<label for="secondMessage">SecondMessage</label>
+						<input type="secondMessage" name="secondMessage" class="form-control">
+					</div><br>
+						<input type="submit" class="btn btn-primary btn-lg" value="Saved">
+				</form>
+				<hr>
+				<div class="text-center">
+					<p>Already have an account? <a href="/login">Login</a>.</p>
+					<p>Or go <a href="/">Home</a>.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<div>
+</body>
+</html>

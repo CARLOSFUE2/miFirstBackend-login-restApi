@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	
+</head>
+<body class="login">
+<div class="container">
+	<div class="col-sm-6 mx-auto">
+		<div class="card mt-5">
+			<div class="card-body bg-dark text-white">
+				<h1 class="text-center">
+					<span class="fa fa-sign-in"></span> Login
+				</h1>
+
+				<form action="/login" method="post">
+					<div class="form-froup">
+						<label for="email">Email</label>
+						<input type="email" name="email" class="form-control">
+					</div>
+					<div class="form-froup">
+						<label for="password">Password</label>
+						<input type="password" name="password" class="form-control">
+					</div><br>
+						<input type="submit" class="btn btn-primary btn-lg" value="Login">
+				</form>
+				<hr>
+				<div class="text-center">
+					<p>Need an account? <a href="/signup">signup</a></p>
+					<p>Or go <a href="/">Home</a>.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<div>
+</body>
+</html>
